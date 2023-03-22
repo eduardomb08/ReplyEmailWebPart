@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "reply-from-spo-web-part-client-side-solution",
+    "id": "fa17f0e5-ce75-4786-91ab-1a7e8dafd3b4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "reply-from-spo-web-part description"
+      },
+      "longDescription": {
+        "default": "reply-from-spo-web-part description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "reply-from-spo-web-part Feature",
+        "description": "The feature that activates elements of the reply-from-spo-web-part solution.",
+        "id": "41743805-bfb6-415c-a3ca-4bd4ff6ab9ae",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/reply-from-spo-web-part.sppkg"
+  }
+}
